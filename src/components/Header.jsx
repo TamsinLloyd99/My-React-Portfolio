@@ -1,29 +1,51 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-function Header() {
+function Header(props) {
+  console.log("Header", props);
   return (
     <>
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Tamsin Lloyd</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#Work">Projects</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active" href="#Contact">Contact Me</a>
-                </li>
-                </ul>
-          </div>
-        </div>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a
+              href="#"
+              onClick={() => props.handlepageChange("home")}
+              className={
+                props.currentPage === "home" ? "nav-link active" : "nav-link"
+              }
+            >
+              Home
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#"
+              onClick={() => props.handlepageChange("projects")}
+              className={
+                props.currentPage === "projects"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#"
+              onClick={() => props.handlepageChange("contact")}
+              className={
+                props.currentPage === "contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
       </nav>
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;
