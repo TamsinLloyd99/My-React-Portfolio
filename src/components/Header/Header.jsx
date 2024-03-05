@@ -11,6 +11,9 @@ function Header() {
             Tamsin Lloyd
           </Link>
           <div className ="ml-auto">
+            <Link to="/aboutme" className="nav-link custom-link">
+            About Me
+          </Link>
           <Link to="/projects" className="nav-link custom-link">
             Projects
           </Link>
