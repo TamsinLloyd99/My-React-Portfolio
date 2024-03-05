@@ -86,7 +86,7 @@ function AboutMe() {
             </li>
           </ul>
           <br></br>
-          <h2>Soft Skills: </h2>
+          <h1 className="display-5">Soft Skills:</h1>
           <ul>
             <li>
               <strong>Problem-Solving: </strong>
