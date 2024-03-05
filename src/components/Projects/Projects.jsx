@@ -1,23 +1,22 @@
 import React from 'react'
-import projectData from "../projectgallery.json"
+import projectData from "../../projectgallery.json"
 
 const ProjectsPage = () => {
-    console.log("projectData",projectData);
+  console.log('projectData', projectData);
+
   return (
     <div>
       <h2>Projects</h2>
       <div>
         {projectData.map((project) => (
-          <Project
-            key={project.id}
-            project={project}/>
+          <Project key={project.id} project={project} />
         ))}
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-const Project = ({project}) => {
+const Project = ({ project }) => {
   return (
     <div>
       <h3>{project.title}</h3>
@@ -30,5 +29,4 @@ const Project = ({project}) => {
   );
 };
 
-
-export default ProjectsPage
+export default ProjectsPage;

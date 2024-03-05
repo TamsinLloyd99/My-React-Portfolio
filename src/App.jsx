@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import RenderPage from "./components/RenderPage";
-import Contact from "./components/Contact";
+import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 
 function App() {
   return (
   <Router>
     <div className="App">
-      <RenderPage />
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<Projects />} />
@@ -22,5 +22,3 @@ function App() {
 }
 
 export default App;
-
-//use react router
