@@ -1,10 +1,12 @@
+
+
 [
     {
         "id": 1,
-        "title": "Project 1",
-        "description": "Project 1 description",
-        "url": "https://www.google.com",
-        "image": "https://via.placeholder.com/150"
+        "title": "Rock Paper Scissors",
+        "description": "A game of Rock Paper Scissors created using JavaScript alert commands",  
+        "url": "https://tamsinlloyd99.github.io/Rock-Paper-Scissors/",
+        "image": "https://images.unsplash.com/photo-1545121436-87364761152c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     {
