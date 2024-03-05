@@ -1,11 +1,14 @@
 import React from "react";
+import "./HomePage.css";
+import ProfileImage from "../Images/Profile.png";
 
 function HomePage() {
   return (
     <>
-      <div>
+      <div className="container">
+        <img className="profile-image" src={ProfileImage} alt="Profile" />
         <section className="hero">
-          <div className="jumbotron container" id="Jumbotron">
+          {/* <div className="jumbotron container" id="Jumbotron"> */}
             <div className="row">
               <h1 className="display-5">About Me</h1>
               <div className="profile"></div>
@@ -27,9 +30,10 @@ function HomePage() {
                 below!{" "}
               </p>
             </div>
-          </div>
+          {/* </div> */}
         </section>
-      </div>
+      
+      <br></br>
       <section className="skills">
         <h1 className="display-5">Skills</h1>
         <div className="col-lg-12 col-md-12 col-sm-12">
@@ -42,6 +46,7 @@ function HomePage() {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 }

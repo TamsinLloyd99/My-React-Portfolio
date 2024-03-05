@@ -1,0 +1,22 @@
+ @font-face {
+    font-family: 'RubikScribble';
+    src: url(../fonts/RubikScribble-Regular.ttf) format('woff2');
+} 
+
+.logo-link{
+font-family: RubikScribble;
+font-size: 50px !important;
+color: black !important;
+font-weight: bold ;
+}
+
+.custom-link{
+   float:inline-start !important;
+   padding: 20px !important;
+  font-size: 20px !important;
+  text-decoration:underline !important;
+}
+
+.custom-link:hover {
+    color: #2b8029;
+  }
