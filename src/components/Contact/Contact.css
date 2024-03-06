@@ -1,3 +1,31 @@
-.contact{
-    margin-bottom: 75px;
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* height: 300px; */
 }
+
+.contactTitle{
+    text-align: center;
+    color: 	#36802d !important;
+    margin-top: 50px !important;
+    padding: 10px;
+}
+.contactlist {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+  }
+
+  svg{
+    margin-top: 70px;
+    color: 	#36802d !important;
+    margin-bottom: 70px;
+  }
+
+.contactlist li {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+

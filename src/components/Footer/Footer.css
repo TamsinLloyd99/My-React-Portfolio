@@ -1,10 +1,20 @@
-.display {
-  margin: 0%;
-  padding: 5px;
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #77ab59;
+  padding: 5px;
   color: white;
-  font-size: 20px;
   text-align: center;
-  font-weight: lighter;
-  line-height: 1.5;
+
+}
+
+.display{
+  font-size: 20px !important;
 }
