@@ -1,14 +1,14 @@
+import RPSImage from "../Images/RockPaperScissors.png"
 
-
-[
+const projectGallery = [
     {
         "id": 1,
         "title": "Rock Paper Scissors",
-        "description": "A game of Rock Paper Scissors created using JavaScript alert commands",  
+        "description": "A game of Rock Paper Scissors created using JavaScript alert commands.",  
         "url": "https://tamsinlloyd99.github.io/Rock-Paper-Scissors/",
-        "image": "https://images.unsplash.com/photo-1545121436-87364761152c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": {RPSImage}
+        // cant get the image to load
     },
-
     {
         "id": 2,
         "title": "Console Finance",
@@ -47,3 +47,4 @@
     
 ]
 
+export default projectGallery

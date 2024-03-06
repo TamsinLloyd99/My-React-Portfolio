@@ -15,11 +15,13 @@ function AboutMe() {
             <p>
               {" "}
               Hello, I'm Tamsin, a passionate front-end web developer based in
-              London. Formerly an elementary school teacher, I made a
-              significant career shift to pursue my love for coding and design.
+              London. Formerly an primary school teacher, I made a
+              significant career shift to pursue my interest in coding and design.
               Currently dedicated to refining my skills, I aspire to create
               engaging and user-friendly web experiences. My journey into the
               tech world has been fueled by a blend of curiosity and creativity.
+              <br></br>
+              <br></br>
               When I'm not immersed in code, you'll find me experimenting with
               new recipes in the kitchen, indulging in my love for crocheting,
               exploring pottery, or nurturing my ever-growing collection of

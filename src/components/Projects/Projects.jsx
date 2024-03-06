@@ -1,5 +1,5 @@
 import React from 'react'
-import projectData from "../../projectgallery.json"
+import projectData from "./projectgallery.js";
 import './Projects.css'
 
 const ProjectsPage = () => {
