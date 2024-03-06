@@ -17,7 +17,7 @@ function HomePage() {
           <source src={BackgroundVideo} type="video/mp4" />
         </video>
         <div className="text-overlay position-absolute top-50 start-50 translate-middle text-center text-white">
-        <h1>Tamsin Lloyd - Front-End Web Developer</h1>
+        <h1>Front-End Web Developer</h1>
         <br></br>
         <h3>Crafting Digital Experiences, One Line of Code at a Time</h3>
       </div>

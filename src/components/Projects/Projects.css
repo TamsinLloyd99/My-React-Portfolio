@@ -1,7 +1,25 @@
-h1{
+.project-container h1{
     text-align: center !important;
+    margin-bottom: 30px !important;
+    color: #36802d !important;
 }
 
-/* .card{
+.card img {
+    height: 250px;
+    width: 100%;
+}
 
-} */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100% !important; 
+}
+
+.card-text{
+    height: 80px !important;
+}
+
+.card-footer a{
+    background-color: #234d20 !important;
+    color: white !important;
+    border: none;
+}
