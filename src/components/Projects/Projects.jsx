@@ -27,8 +27,11 @@ const Project = ({ project }) => {
         <p className="card-text">{project.description}</p>
         </div>
         <div className="card-footer border-0">
+        <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+          Github Repo
+        </a>
         <a href={project.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-          View Project
+          Deployed App
         </a>
       </div>
     </div>
