@@ -1,12 +1,43 @@
-.video-container {
+#video-container {
     position: relative;
-  }
-
-  #background-video {
     width: 100%;
-    height: auto;
+    height: 100vh;
+    overflow: hidden;
   }
-
-h1,h3{
-    font-weight: lighter !important;
-}
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight:lighter !important;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
