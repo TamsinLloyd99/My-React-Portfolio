@@ -31,4 +31,4 @@ This is my GitHub profile: 'https://github.com/TamsinLloyd99', if you would like
 
 This project is licensed under the MIT license.
 
-Deployed link: https://main--tl-react-portfolio.netlify.app/ 
+Deployed link: https://tl-react-portfolio.netlify.app/
