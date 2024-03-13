@@ -2,6 +2,7 @@ import React from 'react';
 import './HomePage.css'; // Import your CSS file
 import BackGroundVideo from '../Videos/Background.mp4';
 import ScreenShot from '../Images/Screenshot.png';
+import ContactButton from '../ContactForm/ContactForm'
 
 const HomePage = () => {
   return (
@@ -16,6 +17,8 @@ const HomePage = () => {
         <h1>Front-End Web Developer</h1>
         <br />
         <h3>Crafting Digital Experiences, One Line of Code at a Time</h3>
+        <ContactButton />
+
       </div>
     </div>
   );
