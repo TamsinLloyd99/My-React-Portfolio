@@ -43,9 +43,9 @@ const ContactForm = ({ onClose }) => {
                     <Form.Control as="textarea" rows={4} placeholder="Enter your message" required />
                 </Form.Group>
 
-                <Button className="btn" variant="primary" type="submit">Submit</Button>
+                <Button className="btn" variant="primary" type="submit" onClick={onClose}>Submit</Button>
             </Form>
-            <Button className='btn' id="closeButton" onClick={onClose}>Close</Button>
+            {/* <Button className='btn' id="closeButton" onClick={onClose}>Close</Button> */}
         </div>
     </div>
 );
